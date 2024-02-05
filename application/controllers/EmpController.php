@@ -16,7 +16,7 @@ class EmpController extends CI_Controller {
 
         //hola
         
-        if(isset($_POST["submit"])){
+        if(isset($_POST["submit"]) && 2 == 2){
             
             $this->form_validation->set_rules('name', 'Nom usuari', 'required');
             $this->form_validation->set_rules('dpt', 'Departament', 'callback_dpt_check');
