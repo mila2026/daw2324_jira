@@ -14,7 +14,7 @@ class EmpController extends CI_Controller {
             'emps' => $this->emp->getAll(),
         );
 
-        //hola
+        //holaasdsadsadsadsa
         
         if(isset($_POST["submit"]) &&  1 == 1){
             
