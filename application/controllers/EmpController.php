@@ -14,7 +14,8 @@ class EmpController extends CI_Controller {
             'emps' => $this->emp->getAll(),
         );
 
-
+        //hola
+        
         if(isset($_POST["submit"])){
             
             $this->form_validation->set_rules('name', 'Nom usuari', 'required');
